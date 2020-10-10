@@ -226,6 +226,8 @@
     .textr{
         text-align: right !important;
     }
+
+    
     
     @media only screen and (max-width: 786px) {
         .container{
@@ -240,6 +242,9 @@
        .textr{
         text-align: center!important;
            font-size: 1.2em;
-           font-weight: 400;
-    }
+           font-weight: 400;   
+        }
+        #marginbott{
+            margin-bottom: 1em !important;
+        }
     }
