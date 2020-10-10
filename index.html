@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="formPage.css">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container register">
+            <div class="row">
+                <div class="col-md-3 register-left">
+                    <img src="https://maxcdn.icons8.com/Share/icon/win10/Healthcare/heart_with_pulse1600.png" alt=""/>
+                    <h2>Welcome</h2>
+                    <h3>Aditya Jain</h3>
+                    <!-- <input type="submit" name="" value="Login"/><br/> -->
+                </div>
+                <div class="col-md-9 register-right">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <h3 class="register-heading">Check the possibility of Heart Attack now!</h3>
+                            <div class="row register-form">
+                                <form style="width: 100vw;">
+
+                                <div class="form-group row" style="margin-bottom: 2em;">
+                                    <div class="col-md-5" id="inpDiv" >
+                                      <input type="number" class="form-control form-control-sm"  placeholder="Enter your Height (in cm) *">
+                                    </div>
+                                    <div class="col-md-5" id="inpDiv" >
+                                      <input type="number" class="form-control form-control-sm"  placeholder="Enter your Weight (in kg) *">
+                                    </div>
+                                </div> 
+
+                                <div class="form-group row">
+                                    <label for="" class="col-md-4">Gender:</label>
+                                    <div class="col-md-6" id="inpDiv" >
+                                      <input type="radio" class=""><label for="male" style="padding-right: 25px;">Male</label>
+                                      <input type="radio" class="" ><label for="female">Female</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="" class="col-md-4">Blood Pressure:</label>
+                                    <div class="col-md-6" id="inpDiv" >
+                                        <select name="cars" id="cars" style="width: 100%;">
+                                            <option value="0">Low</option>
+                                            <option value="0">Normal</option>
+                                            <option value="1">High</option>
+                                          </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="" class="col-md-4">Cholestrol:</label>
+                                    <div class="col-md-6" id="inpDiv" >
+                                        <select name="cholestrol" style="width: 100%;">
+                                            <option value="0">Low</option>
+                                            <option value="0">Normal</option>
+                                            <option value="1">High</option>
+                                          </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="" class="col-md-4">How often do you Smoke:</label>
+                                    <div class="col-md-6" id="inpDiv" >
+                                        <select name="smoke"  style="width: 100%;">
+                                            <option value="0">Never</option>
+                                            <option value="0">Once a day</option>
+                                            <option value="1">Once in a week</option>
+                                          </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="" class="col-md-4">How often do you consume alcohols:</label>
+                                    <div class="col-md-6" id="inpDiv" >
+                                        <select name="alcohol"  style="width: 100%;">
+                                            <option value="0">Never</option>
+                                            <option value="0">Once a day</option>
+                                            <option value="1">Once in a week</option>
+                                          </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="" class="col-md-4">How often do you Exercise:</label>
+                                    <div class="col-md-6" id="inpDiv" >
+                                        <select name="exercise"  style="width: 100%;">
+                                            <option value="0">Never</option>
+                                            <option value="0">Once a day</option>
+                                            <option value="1">Once in a week</option>
+                                          </select>
+                                    </div>
+                                </div>
+
+                             </form>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+    </body>
+</html>
